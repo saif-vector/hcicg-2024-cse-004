@@ -17,7 +17,7 @@ def main():
         glGetString(GL_RENDERER).decode()))
 
     while not glfw.window_should_close(window):
-        glClearColor(0.10, 0.12, 0.16, 1.0)
+        glClearColor(0.95, 0.50, 0.10,1)
         glClear(GL_COLOR_BUFFER_BIT)
         glfw.swap_buffers(window)
         glfw.poll_events()
